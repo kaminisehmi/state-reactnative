@@ -1,12 +1,13 @@
 import { StyleSheet, Text, View } from "react-native";
 import Practisecounter from "../components/practisecounter";
 import Practisetxtin from "../components/practisetxtin";
+import InstaLikedPost from "../components/instalikedpost";
 
 export default function Page() {
   return (
     <View style={styles.container}>
       <View style={styles.main}>
-        <Practisetxtin />
+        <InstaLikedPost />
       </View>
     </View>
   );
